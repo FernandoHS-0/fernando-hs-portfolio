@@ -8,6 +8,10 @@
   font-family: "Epilogue", sans-serif;
 }
 
+body{
+  background-color: #07080A;
+}
+
 .kanit-regular {
   font-family: "Kanit", sans-serif;
   font-weight: 400;

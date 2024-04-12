@@ -14,12 +14,17 @@ const Projects = () => {
                             alt="project"
                             width={800}
                             height={250}
-                            className="h-full"
+                            className="h-full w-full"
                         />
                     </div>
                     <div className="w-full lg:w-2/3 flex flex-col py-10 bg-primary-lavender bg-opacity-30 hover:bg-opacity-50 duration-300">
                         <div className="text-center mb-5">
-                            <Link href={item.url} className="uppercase kanit-regular mb-2">{item.titulo}</Link>
+                            <a href={item.url} target="_blank" className="uppercase kanit-regular mb-2">
+                                <div className="flex justify-center items-center gap-1">
+                                    {item.titulo} 
+                                    <GoLinkExternal/> 
+                                </div>
+                            </a>
                             <p className="text-sm">{item.descripcion}</p>
                         </div>
                         <div className="flex flex-wrap gap-2 justify-center">

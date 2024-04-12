@@ -4,7 +4,7 @@ export const project_list = [
         titulo: "fernando hernández portfolio", 
         descripcion: "Personal portfolio designed from scratch", 
         imagen: "/portfolio.png",
-        url: "#", 
+        url: "https://github.com/FernandoHS-0/fernando-hs-portfolio", 
         stack: [
             {id: 1, nombre: "Figma"}, 
             {id: 2, nombre: "NextJS"}, 
