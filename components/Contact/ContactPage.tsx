@@ -5,8 +5,8 @@ const ContactPage = () => {
             <p className="mt-5 text-sm">Let&apos;s work together to create new things.</p>
             <p className="text-sm">Message me and I&apos;ll reach you back as soon as I can</p>
             <div className="mt-5 flex justify-center gap-5">
-                <button className="px-16 py-2 bg-primary-lavender text-white hover:scale-105 duration-300">Email me</button>
-                <button className="px-16 py-2 bg-primary-lavender text-white hover:scale-105 duration-300">LinkedIn</button>
+                <a href="http://www.linkedin.com/in/fernando-hs-dev" target="_blank" className="px-16 py-2 bg-primary-lavender text-white hover:scale-105 duration-300">LinkedIn</a>
+                <a href="mailto:lfernando.hernandezs@hotmail.com" target="_blank" className="px-16 py-2 bg-primary-lavender text-white hover:scale-105 duration-300">Email Me</a>
             </div>
         </div>
     )

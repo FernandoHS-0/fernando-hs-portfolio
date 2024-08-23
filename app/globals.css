@@ -8,6 +8,10 @@
   font-family: "Epilogue", sans-serif;
 }
 
+html{
+  scrollbar-width: none;
+}
+
 body{
   background-color: #07080A;
 }
